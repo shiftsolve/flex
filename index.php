@@ -61,14 +61,16 @@ color:#fff !important;background-color:#34558b !important}
 			<span id="snapshot" ><br/></span><hr/>
 			<section class="w3-padding">
 				<div class="w3-xlarge" >Dengue Snapshot</div>
+				<p> To view dengue data reports and climate data in CALABARZON for the year 2018, select desired month below. </p>
 				<? include ('dashboard/index.html'); ?>
-				<p class="w3-small">Source: Deparment of Health Reports, Google Searches, DOST-PAGASA Climate Readings</p>
+				<p class="w3-small">Source: Deparment of Health Reports, DOST-PAGASA Climate Readings</p>
 				<p class="w3-small">Please allow time to load data. See <a class="w3-text-indigo" href="#about">below</a> for references.</p>
 			</section>
 
 			<span id="section1" ><br/></span><hr/>
 			<section class="w3-padding">
 				<div class="w3-xlarge" >Predicted Mosquito Hotspots</div>
+				<p> Cities with highest reported cases of dengue in 2019 were selected for geospatial mapping of hotspot locations. User can select desired city in CALABARZON region and view identified potential breeding locations of mosquitoes. </p>
 				<br/><? include ('maps/index.html'); ?>
 				<p class="w3-small">Source: Sentinel-2 Copernicus, Landsat</p>
 				<p class="w3-small">Please allow time to load data. Pins represent intersection of NDWI, NDVI, FAPAR readings. See <a class="w3-text-indigo" href="#about">below</a> for references.</p>
@@ -78,6 +80,7 @@ color:#fff !important;background-color:#34558b !important}
 			<span id="section3" ><br/></span><hr/>
 			<section class="w3-padding">
 				<div class="w3-xlarge">Dengue Forecast</div>
+				<p> Using Time-Series models, dengue cases and deaths can be predicted and forecasted up to 4 months. User can visualize the forecast of CALABARZON cases and deaths from July 2018 to November 2018. </p>
 				<br/><? include ('forecast/index.html'); ?>
 				<p class="w3-small">Source: Deparment of Health Reports, Climate DOST-PAGASA, Google Searches</p>
 				<p class="w3-small">Please allow time to load data. Models represent top 3 fitted forecasts for period 2015-2018. Model predictors tested: average rainfall, average temperature, google searches (dengue, dengue fever, dengue symptoms, dengue medicine), monthly seasonality, lagged effects. Please <a class="w3-text-indigo" href="#contact">contact us</a> for model definitions. </p>
@@ -86,9 +89,9 @@ color:#fff !important;background-color:#34558b !important}
 			<span id="about" ><br/></span><hr/>
 			<section class="w3-padding">
 				<div class="w3-xlarge" >Fighting Dengue with Data</div>
-				<p>The team aims to improve public health response against dengue in the Philippines by predicting dengue cases from climate and digital data and pinpointing possible hotspots from satellite data.</p>
-				
-				<p>Original concept came from Project AEDES (Advanced Early Dengue Prediction and Exploration Service) </p> 
+				<p> Team Flex aims to address delayed reporting of dengue surveillance data in the CALABARZON region of the Philippines through prediction of the spread of dengue and visualization of potential dengue hotspot locations. </p>
+
+				<p>Original concept based from <b>Project AEDES (Advanced Early Dengue Prediction and Exploration Service):</b> </p>
 				<p>The service relies on 3 data sets:
 				<ul><li>Global Data: Satellite imaging data from <a class="w3-text-indigo" href="https://sentinel.esa.int/web/sentinel/sentinel-data-access">Sentinel-2 Copernicus</a> and <a class="w3-text-indigo" href="https://www.usgs.gov/land-resources/nli/landsat/landsat-8">Landsat</a></li>
 				<li>Local Data: Climate data from <a class="w3-text-indigo" href="http://bagong.pagasa.dost.gov.ph/climate/climatological-normals">DOST-PAGASA</a></li>
@@ -102,26 +105,25 @@ color:#fff !important;background-color:#34558b !important}
 
 				<p>We propose to detect likely mosquito hotspots using Satellite data readings:
 				<ul><li>FAPAR: Fraction of Absorbed Photosynthetically Active Radiation, reference <a class="w3-text-indigo" href="https://pdfs.semanticscholar.org/d178/bd58b51fd18c2b97b07aa5c6154d49562a87.pdf">here</a>.</li>
-				<li>NDVI: Normalized difference vegetation index, reference <a class="w3-text-indigo" href="https://earthobservatory.nasa.gov/features/MeasuringVegetation/measuring_vegetation_2.php">here</a>.</li>
 				<li>NDWI: Normalized Difference Water Index, reference <a class="w3-text-indigo" href="http://ceeserver.cee.cornell.edu/wdp2/cee6150/Readings/Gao_1996_RSE_58_257-266_NDWI.pdf">here</a>.</li></ul></p>
 			</section>
 
 			<span id="contact" ><br/></span><hr/>
 			<section class="w3-padding">
 				<div class="w3-xlarge" >Contact Us</div>
-				<p>Team Flex consists of the following:
-				<div><img src="images.jpg" height="250" /></a></div>&nbsp;  &nbsp; &nbsp; 
-				<a class="w3-text-indigo" href="https://www.linkedin.com/in/rachemelendres/">Rachelle Melendres </a>, Data Science Scholar  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+				<p> Team Flex was founded by three scholars currently taking up the Data Science Program of FTW Foundation.
+				<div><img src="images.jpg" height="250" /></a></div>&nbsp;  &nbsp; &nbsp;
+				<a class="w3-text-indigo" href="https://www.linkedin.com/in/rachemelendres/">Rache Melendres</a>, Data Science Scholar  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
 				<a class="w3-text-indigo" href="https://www.linkedin.com/in/janinepadilla/">Janine Padilla</a>, Data Science Scholar &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
 				<a class="w3-text-indigo" href="http://twitter.com/economox">Mox Ballo</a>, Data Science Scholar
-				
-				
-				
-				<p> &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Wanna Hire Us? Contact us via Linked-IN (Just Click our Name) <a class="w3-text-indigo"></a>.</p>
+
+
+
+				<p> &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  We are open to collaborations and suggestions. Feel free to connect with us via our Linkedin. Just click our name! <a class="w3-text-indigo"></a>.</p>
 			</section>
 			<footer class="w3-padding w3-small w3-black">
-				&copy; 
-				 Team Flex Dengue Project , 2020 
+				&copy;
+				 Team Flex Dengue Project , 2020
 				(Adapted from Project AEDES)
 			</footer>
 		</div>
