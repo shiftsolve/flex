@@ -83,7 +83,7 @@ color:#fff !important;background-color:#34558b !important}
 				<p> Using Time-Series models, dengue cases and deaths can be predicted and forecasted up to 4 months. User can visualize the forecast of CALABARZON cases and deaths from July 2018 to November 2018. </p>
 				<br/><? include ('forecast/index.html'); ?>
 				<p class="w3-small">Source: Deparment of Health Reports, Climate DOST-PAGASA, Google Searches</p>
-				<p class="w3-small">Please allow time to load data. Models represent top 3 fitted forecasts for period 2015-2018. Model predictors tested: average rainfall, average temperature, google searches (dengue, dengue fever, dengue symptoms, dengue medicine), monthly seasonality, lagged effects. Please <a class="w3-text-indigo" href="#contact">contact us</a> for model definitions. </p>
+				<p class="w3-small">Please allow time to load data. Models represent top fitted forecasts for period 2015-2018. Model predictors tested: average rainfall, average temperature, google searches (dengue, dengue fever, dengue symptoms, dengue medicine), monthly seasonality, lagged effects. Please <a class="w3-text-indigo" href="#contact">contact us</a> for model definitions. </p>
 			</section>
 
 			<span id="about" ><br/></span><hr/>

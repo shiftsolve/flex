@@ -80,7 +80,7 @@ color:#fff !important;background-color:#34558b !important}
 				<div class="w3-xlarge">Dengue Forecast</div>
 				<br/><? include ('forecast/index.html'); ?>
 				<p class="w3-small">Source: Deparment of Health Reports, Climate DOST-PAGASA, Google Searches</p>
-				<p class="w3-small">Please allow time to load data. Models represent top 3 fitted forecasts for period 2015-2018. Model predictors tested: average rainfall, average temperature, google searches (dengue, dengue fever, dengue symptoms, dengue medicine), monthly seasonality, lagged effects. Please <a class="w3-text-indigo" href="#contact">contact us</a> for model definitions. </p>
+				<p class="w3-small">Please allow time to load data. Models represent top fitted forecasts for period 2015-2018. Model predictors tested: average rainfall, average temperature, google searches (dengue, dengue fever, dengue symptoms, dengue medicine), monthly seasonality, lagged effects. Please <a class="w3-text-indigo" href="#contact">contact us</a> for model definitions. </p>
 			</section>
 
 			<span id="about" ><br/></span><hr/>
