@@ -11,8 +11,7 @@
     <meta name="title" content="Fighting Dengue With Data" />
     <meta name="description" content="Team Flex aims to address delayed reporting of dengue surveillance data in the CALABARZON region. Original concept based from Project AEDES (Advanced Early Dengue Prediction and Exploration Service)" />
     <meta name="keywords" content="philippines, satellite data, dengue, google searches, climate, fapar, ndwi" />
-    <meta property="og:url" content="http://aedesproject.org" />
-    <meta property="og:type" content="website" />
+
     <meta property="og:title" content="Fighting Dengue With Data" />
     <meta property="og:description" content="Team Flex aims to address delayed reporting of dengue surveillance data in the CALABARZON region. Original concept based from Project AEDES (Advanced Early Dengue Prediction and Exploration Service)" />
     <meta property="og:image" content="resources/images/TF_logo2.png" />
