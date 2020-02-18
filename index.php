@@ -8,15 +8,15 @@
 	<link rel="shortcut icon" href="icon.png" type="image/x-icon"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Project AEDES" />
-    <meta name="description" content="AEDES aims to improve public health response against dengue in the Philippines by predicting dengue cases from climate and digital data and pinpointing possible hotspots from satellite data." />
-    <meta name="keywords" content="philippines, satellite data, dengue, google searches, climate, fapar, ndwi, dominic ligot, claire tayco, mark toledo, jansen lopez" />
+    <meta name="title" content="Fighting Dengue With Data" />
+    <meta name="description" content="Team Flex aims to address delayed reporting of dengue surveillance data in the CALABARZON region. Original concept based from Project AEDES (Advanced Early Dengue Prediction and Exploration Service)" />
+    <meta name="keywords" content="philippines, satellite data, dengue, google searches, climate, fapar, ndwi" />
     <meta property="og:url" content="http://aedesproject.org" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Project AEDES" />
-    <meta property="og:description" content="AEDES aims to improve public health response against dengue in the Philippines by predicting dengue cases from climate and digital data and pinpointing possible hotspots from satellite data." />
-    <meta property="og:image" content="resources/images/slide1.png" />
-    <meta name="twitter:image" content="resources/images/slide1.png" />
+    <meta property="og:title" content="Fighting Dengue With Data" />
+    <meta property="og:description" content="Team Flex aims to address delayed reporting of dengue surveillance data in the CALABARZON region. Original concept based from Project AEDES (Advanced Early Dengue Prediction and Exploration Service)" />
+    <meta property="og:image" content="resources/images/TF_logo" />
+    <meta name="twitter:image" content="resources/images/TF_logo" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126660213-5"></script>
 	<script>
