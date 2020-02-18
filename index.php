@@ -15,8 +15,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Fighting Dengue With Data" />
     <meta property="og:description" content="Team Flex aims to address delayed reporting of dengue surveillance data in the CALABARZON region. Original concept based from Project AEDES (Advanced Early Dengue Prediction and Exploration Service)" />
-    <meta property="og:image" content="resources/images/TF_logo.png" />
-    <meta name="twitter:image" content="resources/images/TF_logo.png" />
+    <meta property="og:image" content="resources/images/TF_logo2.png" />
+    <meta name="twitter:image" content="resources/images/TF_logo2.png" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126660213-5"></script>
 	<script>
